@@ -12,6 +12,7 @@ O código fonte (`.c`) atende aos seguintes requisitos técnicos:
 * **Persistência Binária:** Uso de `fwrite`/`fread` para salvar structs complexas em disco (`.dat`).
 * **Acesso Direto:** Utilização de `fseek` para consulta rápida de registros por ID.
 * **Relatórios em Texto:** Exporta todo o banco de dados para um arquivo legível (`relatorio_rpg.txt`).
+* **Função Ecluir (v1.0.2)** Seleciona um registro para ser deletado do armazenamento de fichas.
 * **Sanitização de Dados:** Funções para limpeza de buffer e leitura segura de strings.
 
 ---
